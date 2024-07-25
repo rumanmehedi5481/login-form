@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(16, 192, 236);
+    font-family: sans-serif;
+}
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+h3 {
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.form-parrents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+}
+.form-parrents .login,
+.signup {
+    background-color: #fff;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 3);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+}
+.form-parrents .login .input-item input {
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+}
+
+.fa-eye-slash:before {
+    color: black;
+    position: absolute;
+    left: 50px;
+    bottom: -3px;
+}
+button {
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    background-color: #1877f2;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-parrents .signup .input-item input {
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+}
+hr {
+    margin-top: 20px;
+    width: 100%;
+}
+.or {
+    background-color: #fff;
+    width: 22px;
+    margin: -19px auto 10px;
+}
+i {
+    position: relative;
+    right: 85px;
+}
